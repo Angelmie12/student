@@ -3,10 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Student;
-<<<<<<< HEAD
-=======
 use Illuminate\Http\Request;
->>>>>>> 39a8b44 (feat: implement student crud operations)
 
 class StudentController extends Controller
 {
@@ -16,9 +13,6 @@ class StudentController extends Controller
 
         return view('students.index', compact('students'));
     }
-<<<<<<< HEAD
-}
-=======
 
     public function create()
     {
@@ -70,4 +64,3 @@ class StudentController extends Controller
             ->with('success', 'Student deleted successfully.');
     }
 }
->>>>>>> 39a8b44 (feat: implement student crud operations)
